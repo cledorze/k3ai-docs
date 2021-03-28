@@ -50,7 +50,7 @@ k3ai apply kubeflow-pipelines
 or if we are in K3s/K30 and we want to make use of traefik
 
 ```text
-k3ai apply -f kubeflow-pipelines-traefik
+k3ai apply -g kubeflow-pipelines-traefik
 ```
 
 Once the deployment is done we may reach out to the pipelines UI on port 80. In case we did not use traefik we may expose the UI with this command:
